@@ -41,6 +41,14 @@ public struct LCActivityIndicator: View {
             switch type {
             case .default(let count):
                 DefaultIndicatorView(count: count)  // 默认类型指示器
+            case .threeBallsRotation(let color, let size):
+                LoadingThreeBallsRotation(color: color, size: size)             // 三球旋转动画
+            case .threeBallsTriangle(let color, let size):
+                LoadingThreeBallsTriangle(color: color, size: size)             // 三球三角形旋转动画
+            case .threeBallsBouncing(let color, let size, let speed):           // 三球上下弹跳动画
+                LoadingThreeBallsBouncing(color: color, size: size, speed: speed)
+            case .doubleHelix(let color, let size, let count):                  // 双螺旋动画
+                LoadingDoubleHelix(color: color, size: size, count: count)
             case .arcs(let count, let lineWidth):
                 ArcsIndicatorView(count: count, lineWidth: lineWidth)  // 弧形指示器
             case .rotatingDots(let count):

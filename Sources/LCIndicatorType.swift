@@ -14,6 +14,18 @@ public enum LCIndicatorType {
     /// 默认类型，传入点的数量
     case `default`(count: Int)
     
+    /// 三个点旋转动画
+    case threeBallsRotation(Color, size: CGFloat)
+    
+    /// 三个点形成三角形的旋转动画
+    case threeBallsTriangle(Color, size: CGFloat)
+    
+    /// 三个点上下弹跳动画
+    case threeBallsBouncing(Color, size: CGFloat, speed: CGFloat)
+    
+    /// 双螺旋动画
+    case doubleHelix(Color, size: CGFloat, count: Int)
+    
     /// 弧形指示器，创建多个弧线
     case arcs(count: Int, lineWidth: CGFloat)
     
