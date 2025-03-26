@@ -26,9 +26,6 @@ public enum LCIndicatorType {
     /// 缩放点指示器，点会缩放变化
     case scalingDots(count: Int, spacing: Int)
     
-    /// 透明度点指示器，点的透明度不断变化
-    case opacityDots(count: Int, inset: Int)
-    
     /// 音乐波形均衡器，基于声音频率的动态均衡器
     case audioWaveEqualizer(Color, count: Int)
     

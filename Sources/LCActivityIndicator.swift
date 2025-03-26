@@ -49,8 +49,6 @@ public struct LCActivityIndicator: View {
                 FlickeringDotsIndicatorView(count: count)  // 闪烁点指示器
             case .scalingDots(let count, let spacing):
                 ScalingDotsIndicatorView(count: count, spacing: spacing)  // 缩放点指示器
-            case .opacityDots(let count, let inset):
-                OpacityDotsIndicatorView(count: count, inset: inset)  // 透明度点指示器
             case .audioWaveEqualizer(let color, let count):
                 AudioWaveEqualizer(count: count, color: color)  // 音乐波形均衡器
             case .equalizer(let count):
