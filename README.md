@@ -29,6 +29,7 @@
 </p>
 
 ---
+> [中文](README_CN.md) | [English](README.md)
 
 ### Design
 <p align="center">

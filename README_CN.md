@@ -30,6 +30,9 @@
 
 ---
 
+
+> [中文](README_CN.md) | [English](README.md)
+
 ### 设计
 <p align="center">
 <img align="center" src="Design/Preview.gif" width=500>
