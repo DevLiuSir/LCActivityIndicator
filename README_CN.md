@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./Design/Icon.png" width=200>
+<img src="./Design/Icon.png" width=400>
 
 <p align="center"> <b> LCActivityIndi​​cator 是一个使用 SwiftUI 创建的可移植框架，具有许多预设的加载指示器！</b></p>
 

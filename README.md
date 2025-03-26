@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./Design/Icon.png" width=200>
+<img src="./Design/Icon.png" width=400>
 
 <p align="center"> <b> LCActivityIndicator is a portable framework with many preset loading indicators created using SwiftUI！</b></p>
 
